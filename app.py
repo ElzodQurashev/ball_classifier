@@ -7,8 +7,8 @@ import plotly.express as px
 import platform
 import pathlib
 plat = platform.system()
-# if plat == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+if plat == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
+
 
 # title
 st.title("To'p turini klassifikatsiya qiliuvchi dastur")
