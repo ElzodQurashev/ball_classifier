@@ -12,7 +12,7 @@ if plat == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
 st.title("To'p turini klassifikatsiya qiliuvchi dastur")
-st.text("To'p (koptok) bilan o'ynaladigan sport o'yinlaridagi to'p turini klassifikatsiya qiluvchi dastur")
+st.text("To'p (koptok) bilan o'ynaladigan sport o'yinlaridagi to'p turini\nklassifikatsiya qiluvchi dastur")
 
 # rasmni joylash
 file  = st.file_uploader("Rasm yuklash", type=['jpg', 'png', 'jpeg', 'gif', 'svg'])
